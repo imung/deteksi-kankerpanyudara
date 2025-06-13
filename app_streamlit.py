@@ -4,8 +4,8 @@ import numpy as np
 import joblib
 
 # Load model dan scaler
-model = joblib.load("C:/AppBC/model_bc_randomforest.pkl")
-scaler = joblib.load("C:/AppBC/scaler_bc.pkl")
+model = joblib.load("model_bc_randomforest.pkl")
+scaler = joblib.load("scaler_bc.pkl")
 
 # Judul
 st.set_page_config(page_title="Deteksi Kanker Payudara", layout="centered")
